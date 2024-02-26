@@ -1,0 +1,19 @@
+name: Store User Data
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  store-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Store User Data
+      run: |
+        # 在這裡添加代碼來處理數據
+        echo "User Data: ${{ secrets.USER_DATA }}"
