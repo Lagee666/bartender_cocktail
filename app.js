@@ -9,7 +9,7 @@ function addMaterialInput() {
 
     const new_material_object = document.createElement('div');
     new_material_object.className = 'material-object';
-    new_material_object.id = 'material-object';
+    new_material_object.id = 'material-object' + materialCount;
 
     // Material
     // 創建新的 div 元素
@@ -40,7 +40,7 @@ function addMaterialInput() {
 
     // 創建 input 元素
     const input_value = document.createElement('input');
-    input_value.type = 'text';
+    input_value.type = 'number';
     input_value.id = 'Value' + materialCount;
     input_value.name = 'Value' + materialCount;
     input_value.required = true;
@@ -70,7 +70,7 @@ function addMaterialInput() {
     input_unit.appendChild(option2);
     const option3 = document.createElement('option');
     option3.value = 'other';
-    option3.textContent = 'other ';
+    option3.textContent = '';
     input_unit.appendChild(option3);
 
     // 將 label 和 input 添加到新的 div 元素中

@@ -2,7 +2,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
-import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+import { getFirestore, collection, addDoc, serverTimestamp, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -37,10 +37,12 @@ function submit() {
 
         const name = document.getElementById('Name').value;
         const eposide = document.getElementById('Eposide').value;
+        const page = document.getElementById('Page').value;
 
         const dataObject = {
             Name: name,
             Eposide: eposide,
+            Page: page,
             Material: {}
         };
 
@@ -59,13 +61,42 @@ function submit() {
 
         console.log(dataObject);
 
-        await addDoc(collection(db, 'userData'), {
-            ...dataObject,  // 將整個 dataObject 添加到 Firestore
+        // Create a new Date object, which represents the current date and time
+        const currentDate = new Date();
+
+        // Get individual components of the date and time
+        const year = currentDate.getFullYear();      // 4-digit year
+        const month = currentDate.getMonth() + 1;     // Month (0-indexed, so add 1)
+        const day = currentDate.getDate();            // Day of the month
+        const hours = currentDate.getHours();          // Hours (24-hour format)
+        const minutes = currentDate.getMinutes();      // Minutes
+        const seconds = currentDate.getSeconds();      // Seconds
+
+        // Create a formatted string representing the current date and time
+        const formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+
+        const docRef = doc(collection(db, 'userData'), formattedDateTime);
+        await setDoc(docRef, {
             timestamp: serverTimestamp(),
+            ...dataObject,  // 將整個 dataObject 添加到 Firestore
         });
 
         // 清空輸入欄位
         document.getElementById('Name').value = '';
+        document.getElementById('Page').value = '';
+        for (let i = 0; i < materialCount; i++) {
+            document.getElementById('Material' + i).value = '';
+            document.getElementById('Value' + i).value = '';
+
+            if (i != 0) {
+                var divToDelete = document.getElementById('material-object' + i);
+                if (divToDelete) {
+                    divToDelete.remove();
+                } else {
+                    console.log('Element not found');
+                }
+            }
+        }
         document.getElementById('Eposide').value = '';
         document.getElementById('Description').value = '';
     });

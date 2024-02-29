@@ -23,6 +23,12 @@ form {
     padding: 10px;
   }
   
+  textarea {
+    width: 100%; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    resize: vertical; /* Allow vertical resizing */
+  }
+
   .material-container {
     display: table;
     justify-content: space-between;
@@ -31,8 +37,12 @@ form {
     display: flex;
     justify-content: center;
   }
-  
   .input-container {
     width: 48%;
+  }
+  .eposide-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   

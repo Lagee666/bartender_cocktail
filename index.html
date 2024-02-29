@@ -20,9 +20,11 @@
       <label for="Name">Name:</label>
       <input type="text" id="Name" name="Name" required>
     </div>
-    <div>
+    <div class="eposide-page", id="eposide-page">
       <label for="Eposide">Eposide:</label>
-      <input type="text" id="Eposide" name="Eposide" required>
+      <input type="number" id="Eposide" name="Eposide" required>
+      <label for="Page">Page:</label>
+      <input type="number" id="Page" name="Page" required>
     </div>
     <div class="material-container" id="materialInputs">
       <div class="material-object" id="material-object">
@@ -32,22 +34,33 @@
         </div>
         <div class="input-container">
           <label for="Value0">Value:</label>
-          <input type="text" id="Value0" name="Value0" required>
+          <input type="number" id="Value0" name="Value0" required>
         </div>
         <div class="input-container">
           <label for="Unit0">Unit:</label>
           <select id="Unit0" name="Unit0">
             <option value="ml">ml</option>
             <option value="dash">dash</option>
-            <option value="other">other</option>
+            <option value="other"></option>
         </select>
         </div>
       </div>
     </div>
     <div>
       <label for="Description">Description:</label>
-      <input type="text" id="Description" name="Description" required>
+      <textarea id="Description" name="Description" required></textarea>
     </div>
+    <!-- <label for="unit">Select Unit:</label>
+    <select id="unit" name="unit">
+      <option value="ml">ml</option>
+      <option value="dash">dash</option>
+      <option value="other"></option>
+    </select>
+  
+    <div id="otherContainer" style="display: none;">
+      <label for="otherInput">Other:</label>
+      <input type="text" id="otherInput" name="otherInput">
+    </div> -->
     <button type="button" onclick="addMaterialInput()">新增 Material 輸入框</button>
 
     <button type="submit" id="submit">上傳</button>
@@ -56,6 +69,22 @@
   <!-- Firebase 初始化腳本 -->
   <script type="module" src="firebase.js"></script>
   <script src="app.js"></script>
+
+  <!-- <script>
+    const unitSelect = document.getElementById('unit');
+    const otherContainer = document.getElementById('otherContainer');
+    const otherInput = document.getElementById('otherInput');
+
+    unitSelect.addEventListener('change', function() {
+      if (unitSelect.value === 'other') {
+        otherContainer.style.display = 'block';
+        otherInput.required = true;
+      } else {
+        otherContainer.style.display = 'none';
+        otherInput.required = false;
+      }
+    });
+  </script> -->
 </body>
 
 </html>
