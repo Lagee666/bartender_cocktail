@@ -3,6 +3,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
 import { getFirestore, collection, addDoc, serverTimestamp, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"; // Include the auth module
+
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -20,7 +22,23 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
+const auth = getAuth(app);
+// JavaScript code to handle Google Sign-In
+const googleSignInBtn = document.getElementById('googleSignInBtn');
 
+googleSignInBtn.addEventListener('click', () => {
+    const provider = new GoogleAuthProvider();
+
+    signInWithPopup(auth, provider)
+        .then((result) => {
+            const user = result.user;
+            console.log('Successfully signed in with Google:', user);
+            // You can now use 'user' to perform actions or update UI based on the signed-in user.
+        })
+        .catch((error) => {
+            console.error('Google Sign-In Error:', error);
+        });
+});
 console.log("Success config");
 
 // 獲取按鈕元素
@@ -84,6 +102,17 @@ function submit() {
         // 清空輸入欄位
         document.getElementById('Name').value = '';
         document.getElementById('Page').value = '';
+        // Set up an observer to watch for changes in authentication state
+        app.auth().onAuthStateChanged((user) => {
+            if (user) {
+                // User is signed in, you can perform upload operations here
+                // Call the upload function or trigger the upload event
+            } else {
+                // User is signed out or hasn't signed in yet
+                alert("Please sign in first to perform the upload.");
+            }
+        });
+
         for (let i = 0; i < materialCount; i++) {
             document.getElementById('Material' + i).value = '';
             document.getElementById('Value' + i).value = '';

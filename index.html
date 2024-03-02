@@ -50,41 +50,16 @@
       <label for="Description">Description:</label>
       <textarea id="Description" name="Description" required></textarea>
     </div>
-    <!-- <label for="unit">Select Unit:</label>
-    <select id="unit" name="unit">
-      <option value="ml">ml</option>
-      <option value="dash">dash</option>
-      <option value="other"></option>
-    </select>
-  
-    <div id="otherContainer" style="display: none;">
-      <label for="otherInput">Other:</label>
-      <input type="text" id="otherInput" name="otherInput">
-    </div> -->
     <button type="button" onclick="addMaterialInput()">新增 Material 輸入框</button>
 
     <button type="submit" id="submit">上傳</button>
   </form>
+<!-- HTML button to trigger Google Sign-In -->
+<button id="googleSignInBtn">Sign in with Google</button>
 
   <!-- Firebase 初始化腳本 -->
   <script type="module" src="firebase.js"></script>
   <script src="app.js"></script>
-
-  <!-- <script>
-    const unitSelect = document.getElementById('unit');
-    const otherContainer = document.getElementById('otherContainer');
-    const otherInput = document.getElementById('otherInput');
-
-    unitSelect.addEventListener('change', function() {
-      if (unitSelect.value === 'other') {
-        otherContainer.style.display = 'block';
-        otherInput.required = true;
-      } else {
-        otherContainer.style.display = 'none';
-        otherInput.required = false;
-      }
-    });
-  </script> -->
 </body>
 
 </html>
