@@ -27,6 +27,7 @@ const auth = getAuth(app);
 const googleSignInBtn = document.getElementById('googleSignInBtn');
 
 googleSignInBtn.addEventListener('click', () => {
+    console.log("click google login");
     const provider = new GoogleAuthProvider();
 
     signInWithPopup(auth, provider)
