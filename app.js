@@ -14,7 +14,7 @@ function addMaterialInput() {
     // Material
     // 創建新的 div 元素
     const new_material = document.createElement('div');
-    new_material.className = 'input-container';
+    new_material.className = 'material-container';
 
     // 創建 label 元素
     const label_material = document.createElement('label');
@@ -31,12 +31,12 @@ function addMaterialInput() {
     // Value
     // 創建新的 div 元素
     const new_value = document.createElement('div');
-    new_value.className = 'input-container';
+    new_value.className = 'value-container';
 
     // 創建 label 元素
     const label_value = document.createElement('label');
-    label_value.textContent = 'Unit:';
-    label_value.setAttribute('for', 'Unit' + materialCount);
+    label_value.textContent = 'Value:';
+    label_value.setAttribute('for', 'Value' + materialCount);
 
     // 創建 input 元素
     const input_value = document.createElement('input');
@@ -48,7 +48,7 @@ function addMaterialInput() {
     // Unit
     // 創建新的 div 元素
     const new_material_unit = document.createElement('div');
-    new_material_unit.className = 'input-container';
+    new_material_unit.className = 'unit-container';
 
     // 創建 label 元素
     const label_unit = document.createElement('label');
@@ -73,6 +73,16 @@ function addMaterialInput() {
     option3.textContent = '';
     input_unit.appendChild(option3);
 
+    // delete_material
+
+    const btn_delete = document.createElement('button');
+    
+    btn_delete.textContent = 'Delete';
+    btn_delete.className = 'button-delete'
+    btn_delete.addEventListener('click', function() {
+        materialInputsContainer.removeChild(new_material_object);
+    });
+
     // 將 label 和 input 添加到新的 div 元素中
     new_material.appendChild(label_material);
     new_material.appendChild(input_material);
@@ -87,6 +97,7 @@ function addMaterialInput() {
     new_material_object.appendChild(new_material);
     new_material_object.appendChild(new_value);
     new_material_object.appendChild(new_material_unit);
+    new_material_object.appendChild(btn_delete);
 
     materialInputsContainer.appendChild(new_material_object);
     // 增加計數以確保下一個 Material 輸入框有不同的 ID

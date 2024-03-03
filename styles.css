@@ -1,6 +1,6 @@
 /* styles.css */
 form {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
   }
   
@@ -43,8 +43,6 @@ form {
     margin-bottom: 5px; /* 底邊距以區隔兩個按鈕和文字 */
 }
 
-
-
   .material-container {
     display: table;
     justify-content: space-between;
@@ -53,8 +51,25 @@ form {
     display: flex;
     justify-content: center;
   }
-  .input-container {
+  .material-container {
     width: 48%;
+    margin: 5px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+  .value-container {
+    width: 48%;
+    margin: 5px;
+    min-width: 100px;
+    max-width: 100px;
+  }
+  .unit-container {
+    width: 48%;
+    margin: 5px;
+  }
+  .button-delete{
+    width: 100px;
+    padding: 8px;
   }
   .eposide-page {
     display: flex;

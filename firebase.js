@@ -79,31 +79,34 @@ function submit() {
 
     uploadForm.addEventListener('submit', async function (event) {
         event.preventDefault();
-    
+
         const name = document.getElementById('Name').value;
         const eposide = document.getElementById('Eposide').value;
         const page = document.getElementById('Page').value;
-    
+
         // 使用陣列來存儲 Material，保留設定順序
         const materials = [];
-    
+
         for (let i = 0; i < materialCount; i++) {
-            const material = document.getElementById('Material' + i).value;
-            const value = document.getElementById('Value' + i).value;
-            const unit = document.getElementById('Unit' + i).value;
-    
-            const materialObject = {
-                material: material,
-                value: value,
-                unit: unit,
-            };
-    
-            // 將 Material 物件添加到陣列中
-            materials.push(materialObject);
+            const check_exist_div = document.getElementById('material-object' + i);
+            if (check_exist_div) {
+                const material = document.getElementById('Material' + i).value;
+                const value = document.getElementById('Value' + i).value;
+                const unit = document.getElementById('Unit' + i).value;
+
+                const materialObject = {
+                    material: material,
+                    value: value,
+                    unit: unit,
+                };
+
+                // 將 Material 物件添加到陣列中
+                materials.push(materialObject);
+            }
         }
-    
+
         const description = document.getElementById('Description').value;
-    
+
         const dataObject = {
             Name: name,
             Eposide: eposide,
@@ -111,12 +114,12 @@ function submit() {
             Material: materials,
             Description: description,
         };
-    
+
         console.log(dataObject);
-    
+
         // Create a new Date object, which represents the current date and time
         const currentDate = new Date();
-    
+
         // Get individual components of the date and time
         const year = currentDate.getFullYear();      // 4-digit year
         const month = currentDate.getMonth() + 1;     // Month (0-indexed, so add 1)
@@ -124,30 +127,33 @@ function submit() {
         const hours = currentDate.getHours();          // Hours (24-hour format)
         const minutes = currentDate.getMinutes();      // Minutes
         const seconds = currentDate.getSeconds();      // Seconds
-    
+
         // Create a formatted string representing the current date and time
         const formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-    
+
         const docRef = doc(collection(db, 'userData'), formattedDateTime);
         await setDoc(docRef, {
             timestamp: serverTimestamp(),
             ...dataObject,  // 將整個 dataObject 添加到 Firestore
         });
-    
+
 
         // 清空輸入欄位
         document.getElementById('Name').value = '';
         document.getElementById('Page').value = '';
         for (let i = 0; i < materialCount; i++) {
-            document.getElementById('Material' + i).value = '';
-            document.getElementById('Value' + i).value = '';
+            const check_exist_div = document.getElementById('material-object' + i);
+            if (check_exist_div) {
+                document.getElementById('Material' + i).value = '';
+                document.getElementById('Value' + i).value = '';
 
-            if (i != 0) {
-                var divToDelete = document.getElementById('material-object' + i);
-                if (divToDelete) {
-                    divToDelete.remove();
-                } else {
-                    console.log('Element not found');
+                if (i != 0) {
+                    var divToDelete = document.getElementById('material-object' + i);
+                    if (divToDelete) {
+                        divToDelete.remove();
+                    } else {
+                        console.log('Element not found');
+                    }
                 }
             }
         }
