@@ -124,13 +124,12 @@ function submit() {
         const year = currentDate.getFullYear();      // 4-digit year
         const month = currentDate.getMonth() + 1;     // Month (0-indexed, so add 1)
         const day = currentDate.getDate();            // Day of the month
-        const hours = currentDate.getHours();          // Hours (24-hour format)
-        const minutes = currentDate.getMinutes();      // Minutes
-        const seconds = currentDate.getSeconds();      // Seconds
-
+        const hours = currentDate.getHours().toString().padStart(2, '0');        // Hours (24-hour format), with leading zero
+        const minutes = currentDate.getMinutes().toString().padStart(2, '0');    // Minutes, with leading zero
+        const seconds = currentDate.getSeconds().toString().padStart(2, '0');    // Seconds, with leading zero
         // Create a formatted string representing the current date and time
         const formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-
+        
         const docRef = doc(collection(db, 'userData'), formattedDateTime);
         await setDoc(docRef, {
             timestamp: serverTimestamp(),
