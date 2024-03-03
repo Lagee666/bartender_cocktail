@@ -5,22 +5,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Firebase Upload Example</title>
+  <title>Cocktail Upload Example</title>
   <!-- 引入 Firebase JavaScript SDK -->
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
-  <h1>Firebase Upload Example</h1>
+  <h1>Cocktail Upload Example</h1>
 
+  <div class="login-container">
+    <div class="login-btn-container">
+      <button id="googleSignInBtn">Sign in with Google</button>
+      <button id="googleSignOutBtn">Sign out</button>
+    </div>
+    <label id="userStatus">未登入</label>
+  </div>
   <!-- 表單 -->
   <form id="uploadForm">
     <div>
       <label for="Name">Name:</label>
       <input type="text" id="Name" name="Name" required>
     </div>
-    <div class="eposide-page", id="eposide-page">
+    <div class="eposide-page" , id="eposide-page">
       <label for="Eposide">Eposide:</label>
       <input type="number" id="Eposide" name="Eposide" required>
       <label for="Page">Page:</label>
@@ -42,7 +49,7 @@
             <option value="ml">ml</option>
             <option value="dash">dash</option>
             <option value="other"></option>
-        </select>
+          </select>
         </div>
       </div>
     </div>
@@ -54,8 +61,7 @@
 
     <button type="submit" id="submit">上傳</button>
   </form>
-<!-- HTML button to trigger Google Sign-In -->
-<button id="googleSignInBtn">Sign in with Google</button>
+  <!-- HTML button to trigger Google Sign-In -->
 
   <!-- Firebase 初始化腳本 -->
   <script type="module" src="firebase.js"></script>

@@ -3,7 +3,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
 import { getFirestore, collection, addDoc, serverTimestamp, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"; // Include the auth module
+import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"; // Include the auth module
 
 
 // Your web app's Firebase configuration
@@ -42,6 +42,32 @@ googleSignInBtn.addEventListener('click', () => {
 });
 console.log("Success config");
 
+const googleSignOutBtn = document.getElementById('googleSignOutBtn');
+googleSignOutBtn.addEventListener('click', () => {
+    auth.signOut()
+        .then(() => {
+            console.log('Sign out');
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+});
+
+// 當頁面載入完成後
+window.onload = function () {
+    // 監聽用戶狀態變化
+    auth.onAuthStateChanged(function (user) {
+        if (user) {
+            // 用戶已登入
+            document.getElementById('userStatus').innerText = `使用者已登入，UID: ${user.uid}`;
+        } else {
+            // 用戶未登入
+            document.getElementById('userStatus').innerText = '使用者未登入';
+        }
+    });
+};
+
+
 // 獲取按鈕元素
 const uploadButton = document.getElementById('submit');
 
@@ -53,36 +79,44 @@ function submit() {
 
     uploadForm.addEventListener('submit', async function (event) {
         event.preventDefault();
-
+    
         const name = document.getElementById('Name').value;
         const eposide = document.getElementById('Eposide').value;
         const page = document.getElementById('Page').value;
-
-        const dataObject = {
-            Name: name,
-            Eposide: eposide,
-            Page: page,
-            Material: {}
-        };
-
+    
+        // 使用陣列來存儲 Material，保留設定順序
+        const materials = [];
+    
         for (let i = 0; i < materialCount; i++) {
             const material = document.getElementById('Material' + i).value;
             const value = document.getElementById('Value' + i).value;
             const unit = document.getElementById('Unit' + i).value;
-
-            const value_unit = value + " " + unit;
-            // 添加 Material 到物件中
-            dataObject.Material[material] = value_unit;
+    
+            const materialObject = {
+                material: material,
+                value: value,
+                unit: unit,
+            };
+    
+            // 將 Material 物件添加到陣列中
+            materials.push(materialObject);
         }
+    
         const description = document.getElementById('Description').value;
-
-        dataObject['Description'] = description;
-
+    
+        const dataObject = {
+            Name: name,
+            Eposide: eposide,
+            Page: page,
+            Material: materials,
+            Description: description,
+        };
+    
         console.log(dataObject);
-
+    
         // Create a new Date object, which represents the current date and time
         const currentDate = new Date();
-
+    
         // Get individual components of the date and time
         const year = currentDate.getFullYear();      // 4-digit year
         const month = currentDate.getMonth() + 1;     // Month (0-indexed, so add 1)
@@ -90,30 +124,20 @@ function submit() {
         const hours = currentDate.getHours();          // Hours (24-hour format)
         const minutes = currentDate.getMinutes();      // Minutes
         const seconds = currentDate.getSeconds();      // Seconds
-
+    
         // Create a formatted string representing the current date and time
         const formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-
+    
         const docRef = doc(collection(db, 'userData'), formattedDateTime);
         await setDoc(docRef, {
             timestamp: serverTimestamp(),
             ...dataObject,  // 將整個 dataObject 添加到 Firestore
         });
+    
 
         // 清空輸入欄位
         document.getElementById('Name').value = '';
         document.getElementById('Page').value = '';
-        // Set up an observer to watch for changes in authentication state
-        app.auth().onAuthStateChanged((user) => {
-            if (user) {
-                // User is signed in, you can perform upload operations here
-                // Call the upload function or trigger the upload event
-            } else {
-                // User is signed out or hasn't signed in yet
-                alert("Please sign in first to perform the upload.");
-            }
-        });
-
         for (let i = 0; i < materialCount; i++) {
             document.getElementById('Material' + i).value = '';
             document.getElementById('Value' + i).value = '';
@@ -129,5 +153,6 @@ function submit() {
         }
         document.getElementById('Eposide').value = '';
         document.getElementById('Description').value = '';
+        materialCount = 1;
     });
 }
