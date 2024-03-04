@@ -76,4 +76,8 @@ form {
     justify-content: center;
     align-items: center;
   }
+  .auto-fill-in {
+    display: flex;
+    justify-content: space-between;
+  }
   
