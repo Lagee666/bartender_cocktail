@@ -40,10 +40,9 @@ function addMaterialInput() {
 
     // 創建 input 元素
     const input_value = document.createElement('input');
-    input_value.type = 'number';
+    input_value.type = 'text';
     input_value.id = 'Value' + materialCount;
     input_value.name = 'Value' + materialCount;
-    input_value.step = 'any'
     input_value.required = false;
 
     // Unit
