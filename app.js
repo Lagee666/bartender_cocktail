@@ -43,7 +43,8 @@ function addMaterialInput() {
     input_value.type = 'number';
     input_value.id = 'Value' + materialCount;
     input_value.name = 'Value' + materialCount;
-    input_value.required = true;
+    input_value.step = 'any'
+    input_value.required = false;
 
     // Unit
     // 創建新的 div 元素
