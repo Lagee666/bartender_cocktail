@@ -3,8 +3,26 @@
 // import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
 // import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 let materialCount = 1;
+const autoFillInDiv = document.getElementById('auto-fill-in');
 
-function addMaterialInput() {
+// 监听 auto-fill-in div 的点击事件
+autoFillInDiv.addEventListener('click', function (event) {
+    // 检查点击的元素是否是段落
+    if (event.target.tagName === 'P') {
+        // 在文本框中自动输入段落的文本内容
+        for (i = 0; i < materialCount; i++) {
+            const material_text = document.getElementById('Material' + i);
+            if (material_text) {
+                if (material_text.value.trim() === '') {
+                    material_text.value = event.target.innerText;
+                    return
+                }
+            }
+        }
+        addMaterialInput(event.target.innerText);
+    }
+});
+function addMaterialInput(material) {
     const materialInputsContainer = document.getElementById('materialInputs');
 
     const new_material_object = document.createElement('div');
@@ -26,6 +44,7 @@ function addMaterialInput() {
     input_material.type = 'text';
     input_material.id = 'Material' + materialCount;
     input_material.name = 'Material' + materialCount;
+    input_material.value = material
     input_material.required = true;
 
     // Value
@@ -76,10 +95,10 @@ function addMaterialInput() {
     // delete_material
 
     const btn_delete = document.createElement('button');
-    
+
     btn_delete.textContent = 'Delete';
     btn_delete.className = 'button-delete'
-    btn_delete.addEventListener('click', function() {
+    btn_delete.addEventListener('click', function () {
         materialInputsContainer.removeChild(new_material_object);
     });
 
@@ -104,3 +123,6 @@ function addMaterialInput() {
     materialCount++;
 }
 
+function add_material(material) {
+
+}
