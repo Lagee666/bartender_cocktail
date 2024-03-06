@@ -8,24 +8,24 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signO
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//     apiKey: "AIzaSyC58TlDcuOt-OqSITwG5ehI1AEc066N5jA",
-//     authDomain: "cocktail-adfa8.firebaseapp.com",
-//     projectId: "cocktail-adfa8",
-//     storageBucket: "cocktail-adfa8.appspot.com",
-//     messagingSenderId: "295930608454",
-//     appId: "1:295930608454:web:6da9147968b1d9b51bc347",
-//     measurementId: "G-0XPS44LJRJ"
-// };
 const firebaseConfig = {
-    apiKey: process.env.APIKEY,
-    authDomain: process.env.AUTHDOAIN,
-    projectId: process.env.PROJECTID,
-    storageBucket: process.env.STORAGEBUCKET,
-    messagingSenderId: process.env.MESSAGINGSENDERID,
-    appId: process.env.APPID,
-    measurementId: process.env.MEASUREMENTID,
+    apiKey: "AIzaSyC58TlDcuOt-OqSITwG5ehI1AEc066N5jA",
+    authDomain: "cocktail-adfa8.firebaseapp.com",
+    projectId: "cocktail-adfa8",
+    storageBucket: "cocktail-adfa8.appspot.com",
+    messagingSenderId: "295930608454",
+    appId: "1:295930608454:web:6da9147968b1d9b51bc347",
+    measurementId: "G-0XPS44LJRJ"
 };
+// const firebaseConfig = {
+//     apiKey: process.env.APIKEY,
+//     authDomain: process.env.AUTHDOAIN,
+//     projectId: process.env.PROJECTID,
+//     storageBucket: process.env.STORAGEBUCKET,
+//     messagingSenderId: process.env.MESSAGINGSENDERID,
+//     appId: process.env.APPID,
+//     measurementId: process.env.MEASUREMENTID,
+// };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
