@@ -2,7 +2,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
-import { getFirestore, collection, addDoc, serverTimestamp, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+import { getFirestore, collection, addDoc, serverTimestamp, doc, setDoc, getDocs } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"; // Include the auth module
 
 
@@ -170,3 +170,19 @@ function submit() {
         materialCount = 1;
     });
 }
+async function getUserData() {
+    const userDataCollection = collection(db, 'userData');
+    const querySnapshot = await getDocs(userDataCollection);
+  
+    const userData = [];
+    querySnapshot.forEach((doc) => {
+      userData.push(doc.data());
+    });
+  
+    return userData;
+  }
+  
+  // Example: Call the function and log the user data
+  getUserData().then((userData) => {
+    console.log(userData);
+  });
