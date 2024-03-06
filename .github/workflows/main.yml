@@ -10,10 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-
-    - name: Store User Data
-      run: |
-        # 在這裡添加代碼來處理數據
-        echo "User Data: ${{ secrets.USER_DATA }}"
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Install Dependencies
+        run: npm install
+      - name: Run script
+        run: node your-script.js
+        env:
+          APIKEY: ${{secret.APIKEY}}
+          AUTHDOMAIN: ${{secret.AUTHDOMAIN}}
+          PROJECTID: ${{secret.PROJECTID}}
+          STORAGEBUCKET: ${{secret.STORAGEBUCKET}}
+          MESSAGINGSENDERID: ${{secret.MESSAGINGSENDERID}}
+          APPID: ${{secret.APPID}}
+          MEASUREMENDIT: ${{secret.MEASUREMENTID}}
