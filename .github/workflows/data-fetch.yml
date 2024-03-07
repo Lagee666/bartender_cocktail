@@ -1,6 +1,9 @@
 name: Fetch Firebase Data
 
 on:
+  push:
+    branches:
+      - main  # replace with your branch
   schedule:
     - cron: '0 * * * *'  # Runs every hour
 
