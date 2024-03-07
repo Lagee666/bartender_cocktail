@@ -8,7 +8,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-db.collection('userdata').get()
+db.collection('userData').get()
   .then((snapshot) => {
     const data = snapshot.docs.map(doc => doc.data());
     fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
