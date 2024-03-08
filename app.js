@@ -123,6 +123,7 @@ function addMaterialInput(material) {
     materialCount++;
 }
 
-function add_material(material) {
-
-}
+const home_page_btn = document.getElementById("HomePageBtn");
+home_page_btn.onclick = function() {
+    window.location.href = "cocktail.html";
+};
