@@ -1,5 +1,594 @@
 [
   {
+    "Description": "雪克杯搖勻加入玻璃杯中",
+    "Eposide": "10",
+    "Page": "114",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "Southern Comfort",
+        "value": "25"
+      },
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "25"
+      }
+    ],
+    "Name": "Jack Tar",
+    "timestamp": {
+      "_seconds": 1710001833,
+      "_nanoseconds": 385000000
+    }
+  },
+  {
+    "Description": "漫畫中寫3:1，不過網路上有些酒譜是黑醋栗只放一點點",
+    "Eposide": "10",
+    "Page": "135",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "香檳",
+        "value": "150"
+      },
+      {
+        "unit": "ml",
+        "material": "黑醋栗香甜酒",
+        "value": "50"
+      }
+    ],
+    "Name": "皇家基爾(Kir Royale)",
+    "timestamp": {
+      "_seconds": 1710033522,
+      "_nanoseconds": 629000000
+    }
+  },
+  {
+    "Description": "蘇打水以外的材料以雪克杯搖勻，之後加入適量蘇打水。Sloe Gin是一個品牌，其實這杯就是Gin fizz",
+    "Eposide": "10",
+    "Page": "163",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "20"
+      },
+      {
+        "unit": "other",
+        "material": "糖",
+        "value": "2tsp"
+      },
+      {
+        "unit": "other",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "Sloe Gin Fizz",
+    "timestamp": {
+      "_seconds": 1710034299,
+      "_nanoseconds": 477000000
+    }
+  },
+  {
+    "Description": "如果把伏特加改成Gin就是Gimlet",
+    "Eposide": "10",
+    "Page": "189",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "15"
+      }
+    ],
+    "Name": "Sledge Hammer",
+    "timestamp": {
+      "_seconds": 1710034422,
+      "_nanoseconds": 836000000
+    }
+  },
+  {
+    "Description": "將兩款材料以1:1方式調製而成，酒精濃度大約2%",
+    "Eposide": "11",
+    "Page": "21",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "啤酒",
+        "value": "150"
+      },
+      {
+        "unit": "ml",
+        "material": "薑汁汽水",
+        "value": "150"
+      }
+    ],
+    "Name": "Shandy Gaff",
+    "timestamp": {
+      "_seconds": 1710054147,
+      "_nanoseconds": 556000000
+    }
+  },
+  {
+    "Description": "如果酒譜按照英文字母排列，那他通常在第一個，大概跟英文單字的Abandon一樣的感覺",
+    "Eposide": "11",
+    "Page": "37",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙香甜酒",
+        "value": "15"
+      },
+      {
+        "unit": "dash",
+        "material": "檸檬汁",
+        "value": "1"
+      }
+    ],
+    "Name": "A1",
+    "timestamp": {
+      "_seconds": 1710054340,
+      "_nanoseconds": 880000000
+    }
+  },
+  {
+    "Description": "所有材料搖勻(小聲)",
+    "Eposide": "11",
+    "Page": "69",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "不甜的苦艾酒",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "甜的苦艾酒",
+        "value": "20"
+      }
+    ],
+    "Name": "呢喃(Whisper)",
+    "timestamp": {
+      "_seconds": 1710054827,
+      "_nanoseconds": 792000000
+    }
+  },
+  {
+    "Description": "其實就是深水炸彈，把一個啤酒杯裝啤酒然後把威士忌丟進去",
+    "Eposide": "11",
+    "Page": "91",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "30"
+      },
+      {
+        "unit": "other",
+        "material": "啤酒",
+        "value": ""
+      }
+    ],
+    "Name": "Boiler Maker",
+    "timestamp": {
+      "_seconds": 1710055038,
+      "_nanoseconds": 890000000
+    }
+  },
+  {
+    "Description": "名字是針，或是冷嘲熱諷的人",
+    "Eposide": "11",
+    "Page": "134",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "40"
+      },
+      {
+        "unit": "ml",
+        "material": "白薄荷香甜酒",
+        "value": "20"
+      }
+    ],
+    "Name": "Stinger",
+    "timestamp": {
+      "_seconds": 1710055869,
+      "_nanoseconds": 374000000
+    }
+  },
+  {
+    "Description": "可以調整烏龍茶比例",
+    "Eposide": "11",
+    "Page": "166",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "綠茶利口酒",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "烏龍茶",
+        "value": "120"
+      }
+    ],
+    "Name": "照葉林(Shoyojurin)",
+    "timestamp": {
+      "_seconds": 1710056047,
+      "_nanoseconds": 226000000
+    }
+  },
+  {
+    "Description": "荔枝利口酒可以考慮法國產的Dita。",
+    "Eposide": "11",
+    "Page": "180",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "桂花陳酒",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "荔枝利口酒",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "葡萄柚",
+        "value": "20"
+      },
+      {
+        "unit": "other",
+        "material": "藍柑橘香甜酒",
+        "value": "1tsp"
+      }
+    ],
+    "Name": "楊貴妃",
+    "timestamp": {
+      "_seconds": 1710056320,
+      "_nanoseconds": 709000000
+    }
+  },
+  {
+    "Description": "使用蘇格蘭威士忌，將所有材料搖勻",
+    "Eposide": "12",
+    "Page": "20",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "蜂蜜",
+        "value": "15"
+      }
+    ],
+    "Name": "狗毛(Hair of the dog)",
+    "timestamp": {
+      "_seconds": 1710056472,
+      "_nanoseconds": 426000000
+    }
+  },
+  {
+    "Description": "所有材料搖蕩均勻，基本上不會難喝。",
+    "Eposide": "12",
+    "Page": "40",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "Chartreuse verte",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "15"
+      }
+    ],
+    "Name": "Take Five",
+    "timestamp": {
+      "_seconds": 1710056636,
+      "_nanoseconds": 451000000
+    }
+  },
+  {
+    "Description": "",
+    "Eposide": "12",
+    "Page": "60",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "可可香甜酒",
+        "value": "40"
+      },
+      {
+        "unit": "ml",
+        "material": "紅石柳糖漿",
+        "value": "10"
+      },
+      {
+        "unit": "other",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "田納西華爾滋",
+    "timestamp": {
+      "_seconds": 1710056759,
+      "_nanoseconds": 152000000
+    }
+  },
+  {
+    "Description": "義大利有名的餐前酒。Aperol在台灣應該不好找，可以使用Campari代替，味道比較像但酒精濃度差很多。",
+    "Eposide": "12",
+    "Page": "168",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Camparti",
+        "value": "50"
+      },
+      {
+        "unit": "ml",
+        "material": "Prosecco",
+        "value": "50"
+      },
+      {
+        "unit": "other",
+        "material": "蘇打水",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "柳橙",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "橄欖",
+        "value": ""
+      }
+    ],
+    "Name": "Aperol Spritz",
+    "timestamp": {
+      "_seconds": 1710057251,
+      "_nanoseconds": 269000000
+    }
+  },
+  {
+    "Description": "喝的時候可以用攪拌棒擠壓檸檬，調整成自己喜歡的味道",
+    "Eposide": "13",
+    "Page": "44",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "other",
+        "material": "檸檬角",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "Gin Rickey",
+    "timestamp": {
+      "_seconds": 1710080905,
+      "_nanoseconds": 218000000
+    }
+  },
+  {
+    "Description": "在銅馬克杯放入材料，蘇打水和通寧水1:1加滿，最後裝飾切片檸檬",
+    "Eposide": "13",
+    "Page": "62",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "蘇打水",
+        "value": ""
+      },
+      {
+        "unit": "ml",
+        "material": "通寧水",
+        "value": ""
+      }
+    ],
+    "Name": "Sky ball",
+    "timestamp": {
+      "_seconds": 1710081087,
+      "_nanoseconds": 733000000
+    }
+  },
+  {
+    "Description": "Southern Comfort是一種南方安逸香甜酒，有一種桃果的味道",
+    "Eposide": "13",
+    "Page": "87",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Southern Comfort",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "蔓越莓汁",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "10"
+      }
+    ],
+    "Name": "Scarlett O'Hara",
+    "timestamp": {
+      "_seconds": 1710081289,
+      "_nanoseconds": 296000000
+    }
+  },
+  {
+    "Description": "紫羅蘭利口酒可以使用Parfait Amour，英文就是Perfect love，添加了紫羅蘭的顏色、香氣及香料，是一款誕生於17世紀的春藥酒",
+    "Eposide": "13",
+    "Page": "116",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "紫羅蘭利口酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "other",
+        "material": "紅櫻桃",
+        "value": ""
+      }
+    ],
+    "Name": "藍月(Blue Moon)",
+    "timestamp": {
+      "_seconds": 1710081562,
+      "_nanoseconds": 230000000
+    }
+  },
+  {
+    "Description": "就是在Vodka上面有Pernod的香味，Pernod是一款具有茴香味的酒",
+    "Eposide": "13",
+    "Page": "140",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "60"
+      },
+      {
+        "unit": "other",
+        "material": "Pernod",
+        "value": ""
+      }
+    ],
+    "Name": "冰山伏特加(Vodka Iceberg)",
+    "timestamp": {
+      "_seconds": 1710081874,
+      "_nanoseconds": 599000000
+    }
+  },
+  {
+    "Description": "威士忌最經典調酒，將安格斯苦精滴個幾滴在方糖上，到入波本威士忌，也可以加入檸檬、柳橙等等東西添加風味，可以體驗到糖和冰塊慢慢融化所造成酒的味道變化。",
+    "Eposide": "13",
+    "Page": "164",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "45"
+      },
+      {
+        "unit": "other",
+        "material": "方糖",
+        "value": ""
+      },
+      {
+        "unit": "dash",
+        "material": "安格斯苦精",
+        "value": "2"
+      }
+    ],
+    "Name": "老古典(Old Fashioned)",
+    "timestamp": {
+      "_seconds": 1710082157,
+      "_nanoseconds": 832000000
+    }
+  },
+  {
+    "Description": "將所有材料搖盪。一般馬丁尼應該是攪拌的，但詹姆士龐德說出Shaken, not stirred後大家就開始裝逼學他。",
+    "Eposide": "13",
+    "Page": "190",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "苦艾酒",
+        "value": "12"
+      }
+    ],
+    "Name": "龐德馬丁尼",
+    "timestamp": {
+      "_seconds": 1710082345,
+      "_nanoseconds": 818000000
+    }
+  },
+  {
     "Description": "比例約1:2-2.5",
     "Eposide": "1",
     "Page": "33",
@@ -422,7 +1011,6 @@
     }
   },
   {
-    "Description": "喝起來口感很順滑，有點像甜品，適合不怎麼喝酒的嘗試。",
     "Eposide": "2",
     "Page": "161",
     "Material": [
@@ -451,7 +1039,8 @@
     "timestamp": {
       "_seconds": 1709610034,
       "_nanoseconds": 277000000
-    }
+    },
+    "Description": "基底使用琴酒或白蘭地都可以，喝起來口感很順滑，有點像甜品，適合不怎麼喝酒的嘗試。"
   },
   {
     "Description": "相較於原本像巧克力的亞歷山大，多了一股杏仁味。白蘭地可加可不加，看想要的酒精濃度而已。",
@@ -574,7 +1163,6 @@
     }
   },
   {
-    "Description": "自己在家用倫敦琴酒調就很好喝，但還是推薦去酒吧體驗調酒師的手藝。很多人第一杯都會點Gin Tonic已確認調酒師的技術和想法。",
     "Eposide": "3",
     "Page": "38",
     "Material": [
@@ -598,7 +1186,8 @@
     "timestamp": {
       "_seconds": 1709628448,
       "_nanoseconds": 958000000
-    }
+    },
+    "Description": "自己在家用英人琴酒調就很好喝，但還是推薦去酒吧體驗調酒師的手藝。很多人第一杯都會點Gin Tonic已確認調酒師的技術和想法。"
   },
   {
     "Description": "佐佐倉調的紅磨坊跟網路上的酒譜差有點多，我這邊以佐佐倉的為主。網路上的酒埔基底為Tequila",
@@ -1185,6 +1774,805 @@
     "timestamp": {
       "_seconds": 1709783534,
       "_nanoseconds": 254000000
+    }
+  },
+  {
+    "Description": "採用辛辣雪莉酒和不甜苦艾酒，將所有材料攪拌後即可。稍微Peal會變成叫做Amur的另一種調酒",
+    "Eposide": "6",
+    "Page": "9",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "雪莉酒",
+        "value": "40"
+      },
+      {
+        "unit": "ml",
+        "material": "苦艾酒",
+        "value": "20"
+      },
+      {
+        "unit": "dash",
+        "material": "柑橘苦精",
+        "value": "1"
+      }
+    ],
+    "Name": "竹子(Bamboo)",
+    "timestamp": {
+      "_seconds": 1709866198,
+      "_nanoseconds": 543000000
+    }
+  },
+  {
+    "Description": "基酒可使用蘭姆酒或干邑白蘭地",
+    "Eposide": "6",
+    "Page": "47",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "48"
+      },
+      {
+        "unit": "ml",
+        "material": "蜂蜜",
+        "value": "12"
+      },
+      {
+        "unit": "other",
+        "material": "肉桂棒",
+        "value": ""
+      }
+    ],
+    "Name": "無名氏(No Name)",
+    "timestamp": {
+      "_seconds": 1709866679,
+      "_nanoseconds": 972000000
+    }
+  },
+  {
+    "Description": "以前是杏仁白蘭地40柳橙汁20，但會太甜，現在改成一半一半\n",
+    "Eposide": "6",
+    "Page": "85",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "杏桃白蘭地",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "30"
+      }
+    ],
+    "Name": "瓦倫西亞(Valencia)",
+    "timestamp": {
+      "_seconds": 1709867798,
+      "_nanoseconds": 376000000
+    }
+  },
+  {
+    "Description": "超大杯",
+    "Eposide": "6",
+    "Page": "95",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "氣泡葡萄酒",
+        "value": "250"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "750"
+      },
+      {
+        "unit": "ml",
+        "material": "香甜柑橘酒",
+        "value": "100"
+      },
+      {
+        "unit": "other",
+        "material": "細砂糖",
+        "value": "50g"
+      },
+      {
+        "unit": "other",
+        "material": "水",
+        "value": ""
+      }
+    ],
+    "Name": "瓦倫西亞的水(Agua de Valencia)",
+    "timestamp": {
+      "_seconds": 1709867970,
+      "_nanoseconds": 499000000
+    }
+  },
+  {
+    "Description": "把威士忌換成白蘭地是French connection，把威士忌換成伏特加是教母",
+    "Eposide": "6",
+    "Page": "118",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "杏仁香甜酒",
+        "value": "15"
+      }
+    ],
+    "Name": "教父(God father)",
+    "timestamp": {
+      "_seconds": 1709868089,
+      "_nanoseconds": 206000000
+    }
+  },
+  {
+    "Description": "以深色蘭姆酒(Dark Rum)、白色透明柳橙甜酒(White Curacao)、櫻桃白蘭地(Cherry Brandy)、不甜的苦艾酒各15ml攪拌而成",
+    "Eposide": "6",
+    "Page": "113",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙香甜酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "苦艾酒",
+        "value": "15"
+      }
+    ],
+    "Name": "飛往北極圈的最短距離(Polar Short Cut)",
+    "timestamp": {
+      "_seconds": 1709868233,
+      "_nanoseconds": 60000000
+    }
+  },
+  {
+    "Description": "簡單的說，就是黑醋栗口味的馬丁尼。Creme de cassis是一種法國的黑醋栗香甜酒",
+    "Eposide": "6",
+    "Page": "132",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "不甜苦艾酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "Creme de cassis",
+        "value": "15"
+      }
+    ],
+    "Name": "Parisian",
+    "timestamp": {
+      "_seconds": 1709870917,
+      "_nanoseconds": 688000000
+    }
+  },
+  {
+    "Description": "Fernet-Branca是一種義大利的利口酒，加蘇打直接喝",
+    "Eposide": "6",
+    "Page": "140",
+    "Material": [
+      {
+        "unit": "other",
+        "material": "Fernet-Branca",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "Fernet-Branca 蘇打",
+    "timestamp": {
+      "_seconds": 1709871369,
+      "_nanoseconds": 752000000
+    }
+  },
+  {
+    "Description": "人常說雞尾酒之王是馬丁尼，透過馬丁尼可以知道一間酒吧的個性。馬丁尼有各種不同的比例，一比十、一比五、甚至更dry一點一比二十，還有那種超級dry是只看著香艾酒喝琴酒的。",
+    "Eposide": "6",
+    "Page": "152",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "香艾酒",
+        "value": "5"
+      },
+      {
+        "unit": "other",
+        "material": "橄欖",
+        "value": ""
+      }
+    ],
+    "Name": "馬丁尼",
+    "timestamp": {
+      "_seconds": 1709875241,
+      "_nanoseconds": 773000000
+    }
+  },
+  {
+    "Description": "以啤酒和番茄汁1:1調製而成",
+    "Eposide": "6",
+    "Page": "152",
+    "Material": [
+      {
+        "unit": "other",
+        "material": "啤酒",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "番茄汁",
+        "value": ""
+      }
+    ],
+    "Name": "紅眼(Red Eye)",
+    "timestamp": {
+      "_seconds": 1709875481,
+      "_nanoseconds": 829000000
+    }
+  },
+  {
+    "Description": "將所有材料搖盪而成",
+    "Eposide": "6",
+    "Page": "180",
+    "Material": [
+      {
+        "unit": "other",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      }
+    ],
+    "Name": "琴蕾(Gimlet)",
+    "timestamp": {
+      "_seconds": 1709875854,
+      "_nanoseconds": 154000000
+    }
+  },
+  {
+    "Eposide": "8",
+    "Page": "80",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "糖",
+        "value": "30"
+      },
+      {
+        "unit": "other",
+        "material": "薄荷葉",
+        "value": "8-10片"
+      },
+      {
+        "unit": "other",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "Mojito",
+    "timestamp": {
+      "_seconds": 1709888859,
+      "_nanoseconds": 573000000
+    },
+    "Description": "將薄荷葉、糖、檸檬汁(檸檬片也可以)放入杯中搗爛，之後加入大量的碎冰，倒入蘭姆酒後再加入蘇打水到滿杯即可"
+  },
+  {
+    "Description": "把蛋白、砂糖一起打發，倒入沖過熱水的杯中與蘭姆和白蘭地混合均勻，最後可以加牛奶補滿",
+    "Eposide": "7",
+    "Page": "188",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "15"
+      },
+      {
+        "unit": "other",
+        "material": "砂糖",
+        "value": "2tsp"
+      },
+      {
+        "unit": "other",
+        "material": "蛋白",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "熱水",
+        "value": ""
+      },
+      {
+        "unit": "ml",
+        "material": "牛奶",
+        "value": ""
+      }
+    ],
+    "Name": "湯姆與傑利(Tom and Jerry)",
+    "timestamp": {
+      "_seconds": 1709947354,
+      "_nanoseconds": 629000000
+    }
+  },
+  {
+    "Description": "將所有材料Shake",
+    "Eposide": "8",
+    "Page": "17",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "甜苦艾酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "鳳梨果汁",
+        "value": "15"
+      },
+      {
+        "unit": "other",
+        "material": "紅石柳糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "other",
+        "material": "蛋白",
+        "value": "1顆"
+      }
+    ],
+    "Name": "百萬元(Million Dollar)",
+    "timestamp": {
+      "_seconds": 1709947538,
+      "_nanoseconds": 300000000
+    }
+  },
+  {
+    "Description": "加上鳳梨，並且把杏桃白蘭地換成苦艾酒，就是Million dollar",
+    "Eposide": "8",
+    "Page": "42",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "杏桃白蘭地",
+        "value": "15"
+      },
+      {
+        "unit": "other",
+        "material": "紅石柳糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "other",
+        "material": "蛋白",
+        "value": "1顆"
+      }
+    ],
+    "Name": "美麗的妖精(Fairy Belle)",
+    "timestamp": {
+      "_seconds": 1709947717,
+      "_nanoseconds": 645000000
+    }
+  },
+  {
+    "Description": "把薑汁汽水到滿即可。這杯酒難在刀工，要把皮削成一長條，跟馬頸很像。漫畫中還有再加入氣泡水降低甜度。",
+    "Eposide": "8",
+    "Page": "139",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "45"
+      },
+      {
+        "unit": "other",
+        "material": "薑汁汽水",
+        "value": ""
+      }
+    ],
+    "Name": "馬頸(Horse's Neck)",
+    "timestamp": {
+      "_seconds": 1709948141,
+      "_nanoseconds": 124000000
+    }
+  },
+  {
+    "Description": "將蘇打水以外的好多材料搖勻，最後放入長飲杯後加入蘇打水即可",
+    "Eposide": "8",
+    "Page": "161",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "櫻桃香甜酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "君度橙酒",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "班尼迪克丁",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "鳳梨汁",
+        "value": "60"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "安格斯原味苦精",
+        "value": "1"
+      },
+      {
+        "unit": "other",
+        "material": "紅石柳糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "ml",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "新加波司令(Singapor Sling)",
+    "timestamp": {
+      "_seconds": 1709963652,
+      "_nanoseconds": 277000000
+    }
+  },
+  {
+    "Description": "把Campari換成荔枝香甜酒或者其他蒸餾酒也很好喝",
+    "Eposide": "8",
+    "Page": "186",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Campari",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "葡萄柚汁",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "通寧水",
+        "value": ""
+      }
+    ],
+    "Name": "Spumoni",
+    "timestamp": {
+      "_seconds": 1709973618,
+      "_nanoseconds": 229000000
+    }
+  },
+  {
+    "Description": "攪拌後放入紅酒杯中",
+    "Eposide": "9",
+    "Page": "25",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "紅酒",
+        "value": "50"
+      },
+      {
+        "unit": "ml",
+        "material": "黑醋栗利口酒",
+        "value": "10"
+      }
+    ],
+    "Name": "卡迪納爾(Cardinale)",
+    "timestamp": {
+      "_seconds": 1709976163,
+      "_nanoseconds": 256000000
+    }
+  },
+  {
+    "Description": "將除了波特酒(Port Wine)的材料搖蕩均勻，最後將大約半小茶匙的波特酒讓酒浮在表面，因波特酒糖分很高會自動沉下去，因此難度很高。名字為紅玫瑰品種",
+    "Eposide": "9",
+    "Page": "47",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "苦艾酒",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "紅石榴糖漿",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "30"
+      },
+      {
+        "unit": "dash",
+        "material": "白薄荷",
+        "value": "1"
+      },
+      {
+        "unit": "ml",
+        "material": "波特酒",
+        "value": "5"
+      }
+    ],
+    "Name": "American Beauty",
+    "timestamp": {
+      "_seconds": 1709976537,
+      "_nanoseconds": 500000000
+    }
+  },
+  {
+    "Description": "在杯中加入熱水以外的材料，慢慢加入熱水並以肉桂棒攪拌使方糖融化。",
+    "Eposide": "9",
+    "Page": "65",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "other",
+        "material": "丁香",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "方糖",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "熱水",
+        "value": ""
+      },
+      {
+        "unit": "other",
+        "material": "肉桂棒",
+        "value": ""
+      }
+    ],
+    "Name": "Hot Grog",
+    "timestamp": {
+      "_seconds": 1709976873,
+      "_nanoseconds": 83000000
+    }
+  },
+  {
+    "Description": "可樂調酒永遠不會輸",
+    "Eposide": "9",
+    "Page": "85",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "120"
+      },
+      {
+        "unit": "ml",
+        "material": "可樂",
+        "value": "50"
+      },
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "10"
+      }
+    ],
+    "Name": "自由古巴(Cuba Libre)",
+    "timestamp": {
+      "_seconds": 1709976993,
+      "_nanoseconds": 53000000
+    }
+  },
+  {
+    "Description": "充滿幻想的名字",
+    "Eposide": "9",
+    "Page": "116",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "君度橙酒",
+        "value": "30"
+      },
+      {
+        "unit": "other",
+        "material": "檸檬汁",
+        "value": "1tsp"
+      }
+    ],
+    "Name": "床第之間(Between the Sheets)",
+    "timestamp": {
+      "_seconds": 1709977269,
+      "_nanoseconds": 123000000
+    }
+  },
+  {
+    "Description": "基酒加葡萄柚都好喝",
+    "Eposide": "9",
+    "Page": "130",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "伏特加",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "葡萄柚汁",
+        "value": "90"
+      }
+    ],
+    "Name": "鹹狗(Salty Dog)",
+    "timestamp": {
+      "_seconds": 1709977361,
+      "_nanoseconds": 592000000
+    }
+  },
+  {
+    "Description": "💔",
+    "Eposide": "9",
+    "Page": "191",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "5"
+      }
+    ],
+    "Name": "最後的離別之吻(Last Kiss)",
+    "timestamp": {
+      "_seconds": 1709992322,
+      "_nanoseconds": 212000000
+    }
+  },
+  {
+    "Description": "很簡單的調酒，伏特加直接加柳橙汁就好",
+    "Eposide": "10",
+    "Page": "15",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "50"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "100"
+      }
+    ],
+    "Name": "螺絲起子(Screwdriver)",
+    "timestamp": {
+      "_seconds": 1709996509,
+      "_nanoseconds": 933000000
+    }
+  },
+  {
+    "Description": "這名字很明確的說酒精濃度很高，要小心",
+    "Eposide": "10",
+    "Page": "41",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "艾碧斯",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "Mumm香檳",
+        "value": "45"
+      }
+    ],
+    "Name": "午後之死(Death in the afternoon)",
+    "timestamp": {
+      "_seconds": 1709998138,
+      "_nanoseconds": 552000000
     }
   }
 ]
