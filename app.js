@@ -88,7 +88,7 @@ function addMaterialInput(material) {
     option2.textContent = 'dash ';
     input_unit.appendChild(option2);
     const option3 = document.createElement('option');
-    option3.value = 'other';
+    option3.value = '';
     option3.textContent = '';
     input_unit.appendChild(option3);
 
