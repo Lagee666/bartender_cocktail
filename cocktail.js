@@ -59,9 +59,7 @@ if (cocktailDisplay) {
                 `).join('')}
             </ul>
             Description: 
-            <ul>
             ${item.Description}
-            </ul>
         `;
 
         // Set itemDiv width to 25%
