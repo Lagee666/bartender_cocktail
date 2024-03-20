@@ -5,11 +5,11 @@
 let materialCount = 1;
 const autoFillInDiv = document.getElementById('auto-fill-in');
 
-// 监听 auto-fill-in div 的点击事件
+// Listen autoFillInDiv
 autoFillInDiv.addEventListener('click', function (event) {
-    // 检查点击的元素是否是段落
+    // 檢查點擊元素是否為段落
     if (event.target.tagName === 'P') {
-        // 在文本框中自动输入段落的文本内容
+        // 自動輸入內容
         for (i = 0; i < materialCount; i++) {
             const material_text = document.getElementById('Material' + i);
             if (material_text) {
