@@ -803,6 +803,469 @@
     ]
   },
   {
+    "Description": "如果最後加入的是蘇打水就是Gin Fizz。75是大砲的口徑。French 95是以威士忌為基底，French 125則是白蘭地為基底",
+    "Eposide": "15",
+    "Page": "42",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "砂糖",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "香檳",
+        "value": ""
+      }
+    ],
+    "Name": "French 75",
+    "timestamp": {
+      "_seconds": 1710212485,
+      "_nanoseconds": 430000000
+    }
+  },
+  {
+    "Description": "將材料搖勻後倒入薑汁汽水，喝起來很像莫斯科騾子。Cooler是調酒的一種形式，就是在基酒裡面加入檸檬汁、砂糖，並且以薑汁汽水稀釋。屬於長飲型調酒，喝起來冰涼。",
+    "Eposide": "15",
+    "Page": "62",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "砂糖",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "薑汁汽水",
+        "value": ""
+      }
+    ],
+    "Name": "波士頓冰酒(Boston Cooler)",
+    "timestamp": {
+      "_seconds": 1710212765,
+      "_nanoseconds": 547000000
+    }
+  },
+  {
+    "Description": "無酒精濃度。",
+    "Eposide": "15",
+    "Page": "63",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "砂糖",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "薑汁汽水",
+        "value": ""
+      }
+    ],
+    "Name": "Sararoga Cooler",
+    "timestamp": {
+      "_seconds": 1710212881,
+      "_nanoseconds": 226000000
+    }
+  },
+  {
+    "Description": "以鹽口杯製作，威士忌選艾雷島風味但比較清爽的Bunnahabhain，加入少許番茄汁和檸檬汁。簡單來說遠本是伏特加做的血腥瑪莉變成以威士忌為底。",
+    "Eposide": "15",
+    "Page": "86",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "番茄汁",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      }
+    ],
+    "Name": "班諾克本(Bannockburn)",
+    "timestamp": {
+      "_seconds": 1710213180,
+      "_nanoseconds": 541000000
+    }
+  },
+  {
+    "Description": "倒入伏特加後用通寧水加滿，最後依照喜好倒檸檬汁並以檸檬裝飾。",
+    "Eposide": "15",
+    "Page": "110",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "通寧水",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "檸檬汁",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "檸檬",
+        "value": ""
+      }
+    ],
+    "Name": "伏特加通寧(Vodka Tonic)",
+    "timestamp": {
+      "_seconds": 1710215689,
+      "_nanoseconds": 750000000
+    }
+  },
+  {
+    "Description": "使用Green的Chartreuse，所有材料搖勻，因為有蛋白要搖比較久，但搖比較久又會稀釋味道，是一款難度蠻高的調酒",
+    "Eposide": "15",
+    "Page": "134",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Chartreuse",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "萊姆汁",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "葡萄柚汁",
+        "value": "20"
+      },
+      {
+        "unit": "",
+        "material": "蛋白",
+        "value": ""
+      }
+    ],
+    "Name": "聖傑曼(St. Germain)",
+    "timestamp": {
+      "_seconds": 1710215899,
+      "_nanoseconds": 292000000
+    }
+  },
+  {
+    "Description": "使用Chartreuse yellow，加入檸檬汁柳橙汁蛋黃後搖勻。是漫畫中內田的獨創調酒",
+    "Eposide": "15",
+    "Page": "136",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Chartreuse",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "20"
+      },
+      {
+        "unit": "",
+        "material": "蛋黃",
+        "value": ""
+      }
+    ],
+    "Name": "Reverse",
+    "timestamp": {
+      "_seconds": 1710216039,
+      "_nanoseconds": 787000000
+    }
+  },
+  {
+    "Description": "水可以換成蘇打水、薑汁汽水等等，太酸可以檸檬汁少放",
+    "Eposide": "15",
+    "Page": "190",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "糖",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "水",
+        "value": ""
+      }
+    ],
+    "Name": "琴司令(Gin Sling)",
+    "timestamp": {
+      "_seconds": 1710230345,
+      "_nanoseconds": 790000000
+    }
+  },
+  {
+    "Description": "對外國人來說櫻花應該是像櫻桃一樣的大紅色而不是淺粉紅色，因此刻意以鮮紅色呈現。",
+    "Eposide": "16",
+    "Page": "18",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "櫻桃白蘭地",
+        "value": "30"
+      },
+      {
+        "unit": "dash",
+        "material": "檸檬汁",
+        "value": "2"
+      },
+      {
+        "unit": "dash",
+        "material": "紅石柳糖漿",
+        "value": "2"
+      },
+      {
+        "unit": "dash",
+        "material": "白色透明柳橙甜酒",
+        "value": "2"
+      }
+    ],
+    "Name": "櫻花(Cherry Blossom)",
+    "timestamp": {
+      "_seconds": 1710482277,
+      "_nanoseconds": 35000000
+    }
+  },
+  {
+    "Description": "所有材料攪拌，最後以綠櫻桃和檸檬皮Peel一下",
+    "Eposide": "76",
+    "Page": "73",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "杏仁香甜酒",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "不甜的苦艾酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "Chartreuse verte",
+        "value": "15"
+      }
+    ],
+    "Name": "札幌",
+    "timestamp": {
+      "_seconds": 1710482922,
+      "_nanoseconds": 812000000
+    }
+  },
+  {
+    "Description": "Toddy指得是在威士忌、白蘭地、蘭姆酒加熱水、香料的調酒",
+    "Eposide": "16",
+    "Page": "116",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "丁香",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "砂糖",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "檸檬片",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "熱水",
+        "value": ""
+      }
+    ],
+    "Name": "熱威士忌Toddy(Hot Whisky Toddy",
+    "timestamp": {
+      "_seconds": 1710483910,
+      "_nanoseconds": 338000000
+    }
+  },
+  {
+    "Description": "先在杯中放入糖、薄荷葉、礦泉水並搗碎薄荷，之後倒入酒和碎冰。是美國賽馬大會飲料，比賽期間聽說可以賣出數十萬杯。",
+    "Eposide": "16",
+    "Page": "136",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "60"
+      },
+      {
+        "unit": "",
+        "material": "砂糖",
+        "value": "2tsp"
+      },
+      {
+        "unit": "ml",
+        "material": "礦泉水",
+        "value": "20"
+      },
+      {
+        "unit": "",
+        "material": "薄荷葉",
+        "value": "4~5片"
+      },
+      {
+        "unit": "",
+        "material": "碎冰",
+        "value": ""
+      }
+    ],
+    "Name": "薄荷朱利普(Mint Julep)",
+    "timestamp": {
+      "_seconds": 1710484179,
+      "_nanoseconds": 124000000
+    }
+  },
+  {
+    "Description": "每樣東西都適量，有就加沒有也沒差",
+    "Eposide": "16",
+    "Page": "170",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "蘋果酒",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "熱水",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "檸檬片",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "丁香",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "肉桂",
+        "value": ""
+      }
+    ],
+    "Name": "熱蘋果酒",
+    "timestamp": {
+      "_seconds": 1710484329,
+      "_nanoseconds": 511000000
+    }
+  },
+  {
+    "Description": "聽說從杯子可以聽到鐘聲",
+    "Eposide": "16",
+    "Page": "194",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "Quinquina",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "Dubonnet",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "櫻桃白蘭地",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "10"
+      }
+    ],
+    "Name": "麗塔之鐘(Wedding bell)",
+    "timestamp": {
+      "_seconds": 1710485287,
+      "_nanoseconds": 540000000
+    }
+  },
+  {
     "Description": "比例約1:2-2.5",
     "Eposide": "1",
     "Page": "33",
@@ -1326,11 +1789,11 @@
         "value": "15"
       }
     ],
-    "Name": "鏽釘",
     "timestamp": {
       "_seconds": 1709616617,
       "_nanoseconds": 165000000
-    }
+    },
+    "Name": "鏽釘(Rusty Nail)"
   },
   {
     "Description": "罐頭打成泥跟氣泡酒輕輕攪拌，可再加上新鮮水蜜桃裝飾",

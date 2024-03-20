@@ -59,9 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 `).join('')}
             </ul>
             Description: 
-            <ul>
             ${item.Description}
-            </ul>
         `;
 
                 // Set itemDiv width to 25%
