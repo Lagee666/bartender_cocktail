@@ -1266,6 +1266,994 @@
     }
   },
   {
+    "Description": "聽說喝起來很像法式清湯",
+    "Eposide": "17",
+    "Page": "17",
+    "Material": [
+      {
+        "unit": "dash",
+        "material": "Vodka",
+        "value": "35"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "番茄汁",
+        "value": ""
+      },
+      {
+        "unit": "",
+        "material": "牛肉湯",
+        "value": ""
+      }
+    ],
+    "Name": "血腥公牛(Bloody Bull Cocktail)",
+    "timestamp": {
+      "_seconds": 1710549335,
+      "_nanoseconds": 183000000
+    }
+  },
+  {
+    "Description": "將材料放到杯子攪拌。",
+    "Eposide": "17",
+    "Page": "40",
+    "Material": [
+      {
+        "unit": "dash",
+        "material": "Whisky",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "班尼迪克丁",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "薑汁汽水",
+        "value": "20"
+      }
+    ],
+    "Name": "歐‧亨利",
+    "timestamp": {
+      "_seconds": 1710549623,
+      "_nanoseconds": 634000000
+    }
+  },
+  {
+    "Description": "將蘭姆酒和葡萄柚汁攪拌，最後放入通寧水",
+    "Eposide": "17",
+    "Page": "69",
+    "Material": [
+      {
+        "unit": "dash",
+        "material": "Rum",
+        "value": "60"
+      },
+      {
+        "unit": "ml",
+        "material": "葡萄柚汁",
+        "value": "60"
+      },
+      {
+        "unit": "",
+        "material": "通寧水",
+        "value": ""
+      }
+    ],
+    "Name": "古巴的太陽(Sol Cubano)",
+    "timestamp": {
+      "_seconds": 1710551480,
+      "_nanoseconds": 967000000
+    }
+  },
+  {
+    "Description": "無酒精調酒，先將薑汁汽水以外的材料搖勻，之後到滿薑汁汽水，可以以檸檬做裝飾。",
+    "Eposide": "17",
+    "Page": "93",
+    "Material": [
+      {
+        "unit": "dash",
+        "material": "檸檬汁",
+        "value": "20"
+      },
+      {
+        "unit": "",
+        "material": "雞蛋",
+        "value": "1個"
+      },
+      {
+        "unit": "",
+        "material": "糖",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "薑汁汽水",
+        "value": ""
+      }
+    ],
+    "Name": "情人之夢",
+    "timestamp": {
+      "_seconds": 1710551599,
+      "_nanoseconds": 953000000
+    }
+  },
+  {
+    "Description": "",
+    "Eposide": "17",
+    "Page": "137",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "冰咖啡",
+        "value": "120"
+      }
+    ],
+    "Name": "黑玫瑰(Black Rose)",
+    "timestamp": {
+      "_seconds": 1710551804,
+      "_nanoseconds": 30000000
+    }
+  },
+  {
+    "Description": "使用英國海軍的Plymouth琴酒，再加入苦經稍微攪拌。Pink表示極致，這是琴酒最極致的飲用方式",
+    "Eposide": "18",
+    "Page": "50",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "60"
+      },
+      {
+        "unit": "dash",
+        "material": "苦精",
+        "value": "5"
+      }
+    ],
+    "Name": "Pink Gin",
+    "timestamp": {
+      "_seconds": 1710553630,
+      "_nanoseconds": 100000000
+    }
+  },
+  {
+    "Description": "Daiquiri的一種變化",
+    "Eposide": "18",
+    "Page": "76",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "30"
+      },
+      {
+        "unit": "",
+        "material": "香蕉",
+        "value": "1/2根"
+      },
+      {
+        "unit": "ml",
+        "material": "香蕉利口酒",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "ml",
+        "material": "碎冰",
+        "value": "20"
+      }
+    ],
+    "Name": "香蕉戴克瑞冰沙",
+    "timestamp": {
+      "_seconds": 1710554272,
+      "_nanoseconds": 325000000
+    }
+  },
+  {
+    "Description": "將所有酒搖勻，放入杯緣用檸檬沾濕的酒杯。藍色珊瑚礁的酒譜有很多，大部分會使用伏特加",
+    "Eposide": "18",
+    "Page": "97",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "40"
+      },
+      {
+        "unit": "ml",
+        "material": "薄荷利口酒",
+        "value": "20"
+      }
+    ],
+    "Name": "藍色珊瑚礁",
+    "timestamp": {
+      "_seconds": 1710554628,
+      "_nanoseconds": 709000000
+    }
+  },
+  {
+    "Description": "將藍色珊瑚礁加入檸檬汁和糖漿並以蘇打水加滿",
+    "Eposide": "18",
+    "Page": "118",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "薄荷利口酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "Emerald Cooler",
+    "timestamp": {
+      "_seconds": 1710554710,
+      "_nanoseconds": 127000000
+    }
+  },
+  {
+    "Description": "日本居酒屋常見",
+    "Eposide": "18",
+    "Page": "144",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "黑醋栗利口酒",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "烏龍茶",
+        "value": ""
+      }
+    ],
+    "Name": "黑醋栗烏龍",
+    "timestamp": {
+      "_seconds": 1710554895,
+      "_nanoseconds": 327000000
+    }
+  },
+  {
+    "Description": "先將草莓搗碎，然後加入伏特加搖勻",
+    "Eposide": "19",
+    "Page": "23",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "草莓",
+        "value": "3~4顆"
+      }
+    ],
+    "Name": "草莓伏特加馬丁尼",
+    "timestamp": {
+      "_seconds": 1710667489,
+      "_nanoseconds": 969000000
+    }
+  },
+  {
+    "Description": "一個杯子裝威士忌，一個馬克杯裝熱水。點燃威士忌並把威士忌加入熱水後來回倒，直到酒精燃燒得差不多，是一個稍有不慎就會燙傷自己的調酒。",
+    "Eposide": "19",
+    "Page": "39",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "60"
+      },
+      {
+        "unit": "ml",
+        "material": "熱水",
+        "value": "60"
+      }
+    ],
+    "Name": "藍色火焰(Blue Blazer)",
+    "timestamp": {
+      "_seconds": 1710667767,
+      "_nanoseconds": 700000000
+    }
+  },
+  {
+    "Description": "加利安諾香甜酒是一種有茴香的酒",
+    "Eposide": "19",
+    "Page": "69",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "加利安諾香甜酒",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "可可香甜酒",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "20"
+      }
+    ],
+    "Name": "金色凱迪拉克(Golden Cadillac)",
+    "timestamp": {
+      "_seconds": 1710667991,
+      "_nanoseconds": 397000000
+    }
+  },
+  {
+    "Description": "搖勻，具有各種水果風味的調酒",
+    "Eposide": "19",
+    "Page": "108",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "草莓香甜酒",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "葡萄柚汁",
+        "value": "30"
+      },
+      {
+        "unit": "",
+        "material": "紅石柳糖漿",
+        "value": "2tsp"
+      },
+      {
+        "unit": "",
+        "material": "檸檬汁",
+        "value": "2tsp"
+      }
+    ],
+    "Name": "旅程(Balluchone)",
+    "timestamp": {
+      "_seconds": 1710668571,
+      "_nanoseconds": 248000000
+    }
+  },
+  {
+    "Description": "也可以選擇加入檸檬汁和糖漿調整酸甜",
+    "Eposide": "19",
+    "Page": "130",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "不甜的苦艾酒",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "甜苦艾酒",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙汁",
+        "value": "10"
+      }
+    ],
+    "Name": "布朗克斯(Bronx)",
+    "timestamp": {
+      "_seconds": 1710668843,
+      "_nanoseconds": 674000000
+    }
+  },
+  {
+    "Description": "大致上就是Gin Fizz的架構加上牛奶",
+    "Eposide": "19",
+    "Page": "146",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "10"
+      },
+      {
+        "unit": "",
+        "material": "糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "ml",
+        "material": "牛奶",
+        "value": "30"
+      },
+      {
+        "unit": "",
+        "material": "蘇打水",
+        "value": ""
+      }
+    ],
+    "Name": "會館費士(Kaikan Fizz)",
+    "timestamp": {
+      "_seconds": 1710669081,
+      "_nanoseconds": 667000000
+    }
+  },
+  {
+    "Description": "White lady、Blue lady、Pink lady都是適合女性喝的酒。White lady把琴酒換成伏特加就跟柯夢波丹(Cosmopoltan)很像。",
+    "Eposide": "20",
+    "Page": "19",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "40"
+      },
+      {
+        "unit": "ml",
+        "material": "君度橙酒",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "20"
+      }
+    ],
+    "Name": "白色佳人(White Lady)",
+    "timestamp": {
+      "_seconds": 1710680299,
+      "_nanoseconds": 754000000
+    }
+  },
+  {
+    "Description": "外表呈現藍色的",
+    "Eposide": "20",
+    "Page": "19",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "藍柑橘酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "蛋白",
+        "value": "1"
+      }
+    ],
+    "Name": "藍色佳人(Blue Lady)",
+    "timestamp": {
+      "_seconds": 1710680377,
+      "_nanoseconds": 686000000
+    }
+  },
+  {
+    "Description": "外表呈現紅色的",
+    "Eposide": "20",
+    "Page": "19",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "蛋白",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "紅石柳糖漿",
+        "value": "15"
+      }
+    ],
+    "Name": "粉紅佳人(Pink Lady)",
+    "timestamp": {
+      "_seconds": 1710680451,
+      "_nanoseconds": 938000000
+    }
+  },
+  {
+    "Description": "搖勻所有材料",
+    "Eposide": "20",
+    "Page": "20",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "蜜桃香甜酒",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "檸檬汁",
+        "value": "15"
+      },
+      {
+        "unit": "",
+        "material": "蛋白",
+        "value": "1tsp"
+      }
+    ],
+    "Name": "完美佳人(Perfect Lady)",
+    "timestamp": {
+      "_seconds": 1710680630,
+      "_nanoseconds": 379000000
+    }
+  },
+  {
+    "Description": "正是調法是使用坦奎利和Wild Turkey混和",
+    "Eposide": "20",
+    "Page": "70",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "Whisky",
+        "value": "45"
+      }
+    ],
+    "Name": "Francis Albert",
+    "timestamp": {
+      "_seconds": 1710680782,
+      "_nanoseconds": 363000000
+    }
+  },
+  {
+    "Description": "據說一定要用荷蘭琴酒",
+    "Eposide": "20",
+    "Page": "97",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "荷蘭琴酒",
+        "value": "40"
+      },
+      {
+        "unit": "ml",
+        "material": "甜苦艾酒",
+        "value": "20"
+      },
+      {
+        "unit": "dash",
+        "material": "Absinthe",
+        "value": "1"
+      },
+      {
+        "unit": "dash",
+        "material": "柳橙甜酒",
+        "value": "1"
+      },
+      {
+        "unit": "dash",
+        "material": "糖漿",
+        "value": "1"
+      }
+    ],
+    "Name": "荷蘭的自尊(Holland Pride)",
+    "timestamp": {
+      "_seconds": 1710682024,
+      "_nanoseconds": 321000000
+    }
+  },
+  {
+    "Description": "就是螺絲起子加上加利安諾香甜酒讓他浮在表面",
+    "Eposide": "20",
+    "Page": "116",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "",
+        "material": "柳橙汁",
+        "value": "適量"
+      },
+      {
+        "unit": "",
+        "material": "加利安諾香甜酒",
+        "value": "2tsp"
+      }
+    ],
+    "Name": "哈維撞牆(Harvey Wallbanger)",
+    "timestamp": {
+      "_seconds": 1710682342,
+      "_nanoseconds": 606000000
+    }
+  },
+  {
+    "Description": "將所有東西搖盪均勻",
+    "Eposide": "20",
+    "Page": "143",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Rum",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "柳橙甜酒",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "不甜的苦艾酒",
+        "value": "20"
+      }
+    ],
+    "Name": "甜美回憶(Sweet Memories)",
+    "timestamp": {
+      "_seconds": 1710682489,
+      "_nanoseconds": 296000000
+    }
+  },
+  {
+    "Description": "將檸檬皮削成螺旋狀放入香檳杯中，無酒精飲料",
+    "Eposide": "20",
+    "Page": "169",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "紅石柳糖漿",
+        "value": "20"
+      },
+      {
+        "unit": "",
+        "material": "薑汁汽水",
+        "value": "適量"
+      }
+    ],
+    "Name": "秀蘭‧鄧波爾(Shirley Temple)",
+    "timestamp": {
+      "_seconds": 1710682726,
+      "_nanoseconds": 425000000
+    }
+  },
+  {
+    "Description": "在Shirley Temple裡面加上伏特加的版本",
+    "Eposide": "20",
+    "Page": "170",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "紅石柳糖漿",
+        "value": "20"
+      },
+      {
+        "unit": "",
+        "material": "薑汁汽水",
+        "value": "適量"
+      }
+    ],
+    "Name": "Dirty Shirley",
+    "timestamp": {
+      "_seconds": 1710682804,
+      "_nanoseconds": 849000000
+    }
+  },
+  {
+    "Description": "喝下去就倒下了，明天再醒來重新出發",
+    "Eposide": "20",
+    "Page": "187",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      }
+    ],
+    "Name": "重新出發(Starting Over)",
+    "timestamp": {
+      "_seconds": 1710682912,
+      "_nanoseconds": 471000000
+    }
+  },
+  {
+    "Description": "跟馬丁尼一樣酒譜，但馬丁尼是放上橄欖，Gibson則是珍珠洋蔥",
+    "Eposide": "21",
+    "Page": "29",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "60"
+      },
+      {
+        "unit": "ml",
+        "material": "不甜的苦艾酒",
+        "value": "10"
+      }
+    ],
+    "Name": "吉普森(Gibson)",
+    "timestamp": {
+      "_seconds": 1710750806,
+      "_nanoseconds": 23000000
+    }
+  },
+  {
+    "Description": "1991年全國調酒師技能競技大賽優勝作品。搖勻所有東西即可",
+    "Eposide": "21",
+    "Page": "43",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Vodka",
+        "value": "15"
+      },
+      {
+        "unit": "ml",
+        "material": "青香蕉利口酒",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "青薄荷利口酒",
+        "value": "10"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "15"
+      }
+    ],
+    "Name": "禮物(etrenne)",
+    "timestamp": {
+      "_seconds": 1710752131,
+      "_nanoseconds": 965000000
+    }
+  },
+  {
+    "Description": "第四屆Marie Brizard參賽作品",
+    "Eposide": "21",
+    "Page": "69",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "蔓越莓利口酒",
+        "value": "30"
+      },
+      {
+        "unit": "ml",
+        "material": "香草利口酒",
+        "value": "10"
+      },
+      {
+        "unit": "",
+        "material": "杏桃果糖漿",
+        "value": "1tsp"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "20"
+      }
+    ],
+    "Name": "粉紅絲帶(Pink Ribbon)",
+    "timestamp": {
+      "_seconds": 1710752337,
+      "_nanoseconds": 313000000
+    }
+  },
+  {
+    "Description": "將咖啡、威士忌、糖加熱，最後在放上一層鮮奶油",
+    "Eposide": "21",
+    "Page": "86",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "愛爾蘭威士忌",
+        "value": "50"
+      },
+      {
+        "unit": "ml",
+        "material": "熱咖啡",
+        "value": "120"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "50"
+      },
+      {
+        "unit": "",
+        "material": "黑糖",
+        "value": "1tsp"
+      },
+      {
+        "unit": "",
+        "material": "咖啡豆",
+        "value": "裝飾"
+      }
+    ],
+    "Name": "愛爾蘭咖啡(Irish Coffee)",
+    "timestamp": {
+      "_seconds": 1710752720,
+      "_nanoseconds": 86000000
+    }
+  },
+  {
+    "Description": "把蘇格蘭威士忌換成愛爾蘭威士忌就會變成愛爾蘭咖啡(Irish coffee)",
+    "Eposide": "21",
+    "Page": "86",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "蘇格蘭威士忌",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "糖漿",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "咖啡",
+        "value": "120"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "20"
+      }
+    ],
+    "Name": "Gaelic Coffee",
+    "timestamp": {
+      "_seconds": 1710753169,
+      "_nanoseconds": 925000000
+    }
+  },
+  {
+    "Description": "把白蘭地換成愛爾蘭威士忌就是愛爾蘭咖啡(Irish Coffee)",
+    "Eposide": "21",
+    "Page": "86",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Brandy",
+        "value": "45"
+      },
+      {
+        "unit": "ml",
+        "material": "糖漿",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "咖啡",
+        "value": "120"
+      },
+      {
+        "unit": "ml",
+        "material": "鮮奶油",
+        "value": "20"
+      }
+    ],
+    "Name": "皇家咖啡(Royal Coffee)",
+    "timestamp": {
+      "_seconds": 1710753450,
+      "_nanoseconds": 815000000
+    }
+  },
+  {
+    "Description": "有些人會在酒吧點Underberg當作最後一杯，據說比較不會宿醉",
+    "Eposide": "21",
+    "Page": "138",
+    "Material": [
+      {
+        "unit": "ml",
+        "material": "Underberg",
+        "value": "20"
+      },
+      {
+        "unit": "ml",
+        "material": "Gin",
+        "value": "30"
+      },
+      {
+        "unit": "dash",
+        "material": "苦精",
+        "value": "2"
+      },
+      {
+        "unit": "",
+        "material": "蘇打水",
+        "value": "適量"
+      }
+    ],
+    "Name": "鐵人(Iron Man)",
+    "timestamp": {
+      "_seconds": 1710840368,
+      "_nanoseconds": 191000000
+    }
+  },
+  {
     "Description": "比例約1:2-2.5",
     "Eposide": "1",
     "Page": "33",
@@ -1902,7 +2890,6 @@
     "Description": "漫畫中沒特別提到加糖漿，櫻桃利口酒使用Marachino，全部加在一起用果汁機打成冰沙。聽說海明威每天晚上都要喝12杯雙份冰凍戴克瑞，不加糖漿但雙倍Rum",
     "Eposide": "3",
     "Page": "89",
-    "Name": "海明",
     "timestamp": {
       "_seconds": 1709694713,
       "_nanoseconds": 530000000
@@ -1933,7 +2920,8 @@
         "material": "純糖漿",
         "value": "1 tsp"
       }
-    ]
+    ],
+    "Name": "海明威戴克瑞(Hemingway Daiquiri)"
   },
   {
     "Description": "把三種材料放進銅杯裡輕輕攪拌，也可以根據喜好調整伏特加和薑汁汽水比例。相傳這是三個東西賣不出去的美國人湊再一起的酒，因此要放在銅杯最正統，但自己在家調怎麼調都可以啦。",
