@@ -1,47 +1,53 @@
 /* styles.css */
 form {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  div {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    padding: 10px;
-  }
-  
-  textarea {
-    width: 100%; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    resize: vertical; /* Allow vertical resizing */
-  }
-  .LoginContainer {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  /* Adjust the width as needed */
+  height: 100px;
+  /* Adjust the height as needed */
+  resize: vertical;
+  /* Allow vertical resizing */
+}
+
+.LoginContainer {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 #googleSignInBtn,
 #googleSignOutBtn {
-    margin-bottom: 5px; /* 底邊距以區隔兩個按鈕和文字 */
+  margin-bottom: 5px;
+  /* 底邊距以區隔兩個按鈕和文字 */
 }
+
 .HomelPage {
   position: fixed;
   top: 55px;
@@ -51,41 +57,72 @@ form {
   flex-direction: column;
   align-items: flex-end;
 }
-  .material-container {
-    display: table;
-    justify-content: space-between;
-  }
-  .material-object {
-    display: flex;
-    justify-content: center;
-  }
-  .material-container {
-    width: 48%;
-    margin: 5px;
-    min-width: 300px;
-    max-width: 300px;
-  }
-  .value-container {
-    width: 48%;
-    margin: 5px;
-    min-width: 100px;
-    max-width: 100px;
-  }
-  .unit-container {
-    width: 48%;
-    margin: 5px;
-  }
-  .button-delete{
-    width: 100px;
-    padding: 8px;
-  }
-  .eposide-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .auto-fill-in {
-    display: flex;
-    justify-content: space-between;
-  }
-  
+
+.material-container {
+  display: table;
+  justify-content: space-between;
+}
+
+.material-object {
+  display: flex;
+  justify-content: center;
+}
+
+.material-container {
+  width: 48%;
+  margin: 5px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.value-container {
+  width: 48%;
+  margin: 5px;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.unit-container {
+  width: 48%;
+  margin: 5px;
+}
+
+.button-delete {
+  width: 100px;
+  padding: 8px;
+}
+
+.eposide-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auto-fill-in {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-aligned {
+  position: absolute;
+  left: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li.checked::after {
+  content: " ✓";
+  color: green;
+}
