@@ -25,10 +25,11 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleList();
 });
 // 呈現 JSON 數據的函數
-function renderJson(data) {
+function renderJson(cocktailData) {
     // 清空先前的內容
     cocktailDisplay.innerHTML = '';
-
+    var includeCheckedItemData = checkMaterialIncludeCheckItem(cocktailData);
+    console.log(includeCheckedItemData);
     // Assuming cocktailDisplay is an existing HTML element or has been properly defined
 
     // Check if cocktailDisplay is not undefined or null
@@ -39,19 +40,11 @@ function renderJson(data) {
         rowDiv.style.flexWrap = 'wrap';
         var rowDivCount = 0
         // Iterate through JSON data
-        for (item = 0; item < data.length; item++) {
-            var materialArray = data[item].Material;
-            var materials = materialArray.map(materialItem => materialItem.material);
-            var notAllInlcude = false;
-            for (i = 0; i < checkedItems.length; i++) {
-                if (!materials.includes(checkedItems[i])) {
-                    notAllInlcude = true;
-                    break
-                }
-            }
-            if (notAllInlcude && checkedItems.length != 0) {
-                continue
-            }
+        for (item = 0; item < includeCheckedItemData.length; item++) {
+            // var notAllInlcude = checkMaterialIncludeCheckItem(cocktailData[item]);
+            // if (notAllInlcude && checkedItems.length != 0) {
+            //     continue
+            // }
             // Check if a new row should be created
             if (rowDivCount > 0 && rowDivCount % 3 === 0) {
                 // Append the previous rowDiv to cocktailDisplay
@@ -66,20 +59,20 @@ function renderJson(data) {
             // Create individual itemDiv
             const itemDiv = document.createElement('div');
             itemDiv.innerHTML = `
-            <strong>${data[item].Name}</strong>:
+            <strong>${includeCheckedItemData[item].Name}</strong>:
             <br>
-            第${data[item].Eposide}集${data[item].Page}頁
+            第${includeCheckedItemData[item].Eposide}集${includeCheckedItemData[item].Page}頁
             <br>
             Material:
             <ul>
-                ${data[item].Material.map(material => `
+                ${includeCheckedItemData[item].Material.map(material => `
                 <li>
                     ${material.material}: ${material.value}${material.unit}
                 </li>
                 `).join('')}
             </ul>
             Description: 
-            ${data[item].Description}
+            ${includeCheckedItemData[item].Description}
         `;
 
             // Set itemDiv width to 25%
@@ -95,11 +88,51 @@ function renderJson(data) {
             cocktailDisplay.appendChild(rowDiv);
         }
 
-        getLiquarListandCount(data);
+        getLiquarListandCount(includeCheckedItemData);
     } else {
         console.error('Error: cocktailDisplay is not defined or null.');
     }
 }
+
+function checkMaterialIncludeCheckItem(data) {
+    if (checkedItems.length === 0) {
+        return data
+    }
+    var includeData = [];
+    for (item = 0; item < data.length; item++) {
+        var materialArray = data[item].Material;
+        var materials = materialArray.map(materialItem => materialItem.material);
+        var notAllInlcude = false;
+        for (i = 0; i < checkedItems.length; i++) {
+            if (!materials.includes(checkedItems[i])) {
+                notAllInlcude = true;
+                break
+            }
+        }
+        if (notAllInlcude) {
+            continue
+        }
+        includeData.push(data[item]);
+    }
+    
+    console.log(includeData);
+    return includeData
+    // console.log(includeData);
+    // var materialArray = data.Material;
+    // var materials = materialArray.map(materialItem => materialItem.material);
+    // var notAllInlcude = false;
+    // for (i = 0; i < checkedItems.length; i++) {
+    //     if (!materials.includes(checkedItems[i])) {
+    //         notAllInlcude = true;
+    //         break
+    //     }
+    // }
+    // if (notAllInlcude && checkedItems.length != 0) {
+    //     return notAllInlcude
+    // }
+    // return false
+}
+
 function getLiquarListandCount(data) {
     liquarList = {};
     data.forEach((item, index) => {
@@ -146,7 +179,6 @@ function toggleList() {
                 } else {
                     checkedItems.splice(index, 1);
                 }
-                console.log("勾選了：" + checkedItems);
                 renderJson(cocktaildata);
             };
             list.appendChild(listItem);

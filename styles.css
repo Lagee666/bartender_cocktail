@@ -121,10 +121,10 @@ ul {
 
 .materialList {
   position: fixed;
-  top: 1;
+  top: 0;
   left: 0;
   width: 200px; /* 調整容器寬度 */
-  height: 90vh; /* 設置高度為視窗高度，使容器占滿整個屏幕高度 */
+  height: 96vh; /* 設置高度為視窗高度，使容器占滿整個屏幕高度 */
   overflow-y: auto; /* 垂直滾動條 */
   background-color: #f0f0f0; /* 背景顏色 */
   border-right: 1px solid #ccc; /* 可選，添加右邊框線 */
