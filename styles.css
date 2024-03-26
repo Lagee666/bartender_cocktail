@@ -118,11 +118,30 @@ ul {
   left: 0;
 }
 
-li {
+
+.materialList {
+  position: fixed;
+  top: 1;
+  left: 0;
+  width: 200px; /* 調整容器寬度 */
+  height: 90vh; /* 設置高度為視窗高度，使容器占滿整個屏幕高度 */
+  overflow-y: auto; /* 垂直滾動條 */
+  background-color: #f0f0f0; /* 背景顏色 */
+  border-right: 1px solid #ccc; /* 可選，添加右邊框線 */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* 可選，添加陰影效果 */
+  padding: 10px; /* 可選，添加內邊距 */
+}
+
+.materialList li {
   cursor: pointer;
 }
 
-li.checked::after {
+.materialList li.checked::after {
   content: " ✓";
   color: green;
+}
+
+.content {
+  margin-left: 220px; /* 調整右移量，使其與清單寬度相同加上額外空間 */
+  padding: 20px; /* 可選，添加內邊距 */
 }
